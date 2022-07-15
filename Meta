@@ -1,7 +1,7 @@
 =meta: 0.0.2
 
 name: App-JYJ
-version: 0.0.1
+version: 0.0.2
 abstract: Convert JSON to YAML to JSON to...
 homepage: https://yamlscript.org
 license: mit

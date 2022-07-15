@@ -3,7 +3,7 @@ package App::JYJ;
 use strict;
 use warnings;
 
-our $VERSION = '0.0.1';
+our $VERSION = '0.0.2';
 
 use JSON::PP;
 use YAML::PP;

@@ -1,5 +1,12 @@
 # Revision history for Perl module App::JYJ
 ---
+version: 0.0.2
+date:    Fri 15 Jul 2022 07:43:31 AM PDT
+changes:
+- Allow for possible whitespace at start of JSON when checking for JSON or
+  YAML
+- Fix doc typos
+---
 version: 0.0.1
 date:    Fri 15 Jul 2022 07:21:33 AM PDT
 changes:
