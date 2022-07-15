@@ -15,7 +15,7 @@ sub run {
     my $output;
     my $json = JSON::PP->new->pretty->indent_length(2);
     my $yaml = YAML::PP->new;
-    if ($input =~ /\A[\{\[]/) {
+    if ($input =~ /\A\s*[\{\[]/) {
         my $data = $json->decode($input);
         $output = $yaml->dump($data);
     }
