@@ -13,13 +13,13 @@ $ cat file.json | jyj | jyj |jyj  # YAML
 
 ## Description
 
-This module installs a commandline tool called `jyj`.
+This module installs a command-line tool called `jyj`.
 
 It reads stdin.
 
-If it looks like JSON, it print the YAML dump of the JSON decode.
+If it looks like JSON, it prints the YAML dump of the JSON decoding.
 
-If it looks like YAML, it print the JSON encode of the YAML load.
+If it looks like YAML, it prints the JSON encoding of the YAML load.
 
 That's it.
 
