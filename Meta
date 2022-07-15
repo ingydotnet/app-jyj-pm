@@ -1,0 +1,36 @@
+=meta: 0.0.2
+
+name: App-JYJ
+version: 0.0.1
+abstract: Convert JSON to YAML to JSON to...
+homepage: https://yamlscript.org
+license: mit
+copyright: 2022
+
+author:
+  name: Ingy döt Net
+  email: ingy@ingy.net
+  github: ingydotnet
+  twitter: ingydotnet
+  freenode: ingy
+  homepage: http://ingy.net
+  cpan: INGY
+
+devel:
+  git: https://github.com/ingydotnet/app-jyj-pm
+  bug: https://github.com/ingydotnet/app-jyj-pm/issues
+  irc: irc.libera.chat#yaml
+
+branch: main
+
+language: perl
+
+requires:
+  perl: '5.8.1'
+  IO::All: '0.87'
+  JSON::PP: '4.10'
+  Mo: '0.40'
+  YAML::PP: '0.034'
+
+=zild:
+  no-travis: true
